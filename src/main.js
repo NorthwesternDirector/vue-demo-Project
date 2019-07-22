@@ -15,10 +15,11 @@ Vue.use(VueResource)
 
 //按需导入Mint-UI中的组件
 import 'mint-ui/lib/style.css'
-import { Header, Swipe, SwipeItem } from 'mint-ui'
+import { Header, Swipe, SwipeItem, Button } from 'mint-ui'
 Vue.component(Header.name, Header)
 Vue.component(Swipe.name, Swipe)
 Vue.component(SwipeItem.name, SwipeItem)
+Vue.component(Button.name, Button)
 
 //导入MUI样式
 import './lib/mui/css/mui.min.css'

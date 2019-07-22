@@ -14,27 +14,27 @@
         </mt-swipe>
         <!-- 九宫格-》六宫格 -->
         <ul class="mui-table-view mui-grid-view mui-grid-9">
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-                  <img src="../../images/menu/menu7.png" alt="">
-                    <div class="mui-media-body">主页</div></a></li>
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
-                    <img src="../../images/menu/menu1.png" alt="">
-                    <div class="mui-media-body">近期旅行</div></a></li>
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
+                  <img src="../../images/menu/menu1.png" alt="">
+                  <div class="mui-media-body">近期旅行</div></router-link></li>
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
+                    <img src="../../images/menu/menu7.png" alt="">
+                     <div class="mui-media-body">图片分享</div></router-link></li>
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
                     <img src="../../images/menu/menu6.png" alt="">
-                    <div class="mui-media-body">vlogs</div></a></li>
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+                    <div class="mui-media-body">vlogs</div></router-link></li>
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
                     <img src="../../images/menu/menu3.png" alt="">
-                    <div class="mui-media-body">留言评论</div></a></li>
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+                    <div class="mui-media-body">留言评论</div></router-link></li>
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
                     <img src="../../images/menu/menu5.png" alt="">
-                    <div class="mui-media-body">测评</div></a></li>
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+                    <div class="mui-media-body">测评</div></router-link></li>
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
                     <img src="../../images/menu/menu2.png" alt="">
-                    <div class="mui-media-body">联系方式</div></a></li>     
-            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="#">
+                    <div class="mui-media-body">联系方式</div></router-link></li>     
+            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><router-link to="/home/newslist">
                     <img src="../../images/menu/menu4.png" alt="">
-                    <div class="mui-media-body">更多</div></a></li>
+                    <div class="mui-media-body">更多</div></router-link></li>
 		</ul> 
     </div>
 </template>
