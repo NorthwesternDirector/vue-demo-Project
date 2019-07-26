@@ -13,13 +13,26 @@ import VueResource from 'vue-resource'
 //2.2安装vue-resource
 Vue.use(VueResource)
 
+//定义全局日期过滤器
+import moment from 'moment'
+Vue.filter('dateFormat', function(dataStr, pattern = "YYYY-MM-DD HH:mm:ss") {
+    return moment(dataStr).format(pattern)
+})
+
 //按需导入Mint-UI中的组件
+import MintUI from 'mint-ui'
+Vue.use(MintUI)
 import 'mint-ui/lib/style.css'
-import { Header, Swipe, SwipeItem, Button } from 'mint-ui'
-Vue.component(Header.name, Header)
-Vue.component(Swipe.name, Swipe)
-Vue.component(SwipeItem.name, SwipeItem)
-Vue.component(Button.name, Button)
+// import { Header, Swipe, SwipeItem, Button, Lazyload } from 'mint-ui'
+// Vue.component(Header.name, Header)
+// Vue.component(Swipe.name, Swipe)
+// Vue.component(SwipeItem.name, SwipeItem)
+// Vue.component(Button.name, Button)
+// Vue.use(Lazyload)
+
+//安装图片预览插件
+import VuePreview from 'vue-preview'
+Vue.use(VuePreview)
 
 //导入MUI样式
 import './lib/mui/css/mui.min.css'
