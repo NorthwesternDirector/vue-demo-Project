@@ -99,6 +99,13 @@ export default {
         },
         addToShopCar(){//添加至购物车
             this.ballflag=!this.ballflag;
+            var goodsinfo={//拼接出一个要保存到store里的car参数
+                id:this.id,
+                count:this.selectedCount,
+                price:this.now_goods.sell_price,
+                selected:true
+            };
+            this.$store.commit("addToCar",goodsinfo);
         },
         beforeEnter: (el) => {//小球动画
             el.style.transform="translate(0,0)";
