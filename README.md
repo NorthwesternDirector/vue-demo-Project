@@ -1,12 +1,12 @@
 ## APP 小demo！一起追寻改bug的快乐！！
-
----
 + demo样式展示：
+<img height=167px width=93px src="https://github.com/NorthwesternDirector/vue-project/blob/master/src/images/captures/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-31%20%E4%B8%8B%E5%8D%8810.22.15.png"><img height=167px width=93px src="https://github.com/NorthwesternDirector/vue-project/blob/master/src/images/captures/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-31%20%E4%B8%8B%E5%8D%8810.23.28.png"><img height=167px width=93px src="https://github.com/NorthwesternDirector/vue-project/blob/master/src/images/captures/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-08-31%20%E4%B8%8B%E5%8D%8810.23.37.png">
 
 ---
 
 #### day1 制作首页app组件
 `vue-router` `vue-resource` `Mint-UI` `MUI`
+
 1.完成header区域
 + 使用Mint-UI中的header组件
 
@@ -28,6 +28,7 @@
 
 #### day2 
 `vue-router` `vue-resource` `MUI`
+
 1.九宫格-近期旅行
 + 1.1
 + 改造 近期旅行 路由链接
@@ -58,6 +59,7 @@
 
 #### day3
 `vue-router` `vue-resource` `MUI`
+
 1.图片分享子组件
 + 将图片分享按钮改造为路由链接，并显示对应的组件页面
 + 1.1
@@ -92,6 +94,7 @@
 
 #### day5
 `Vuex` 
+
 1.Vuex学习
 + Vuex 是为了保存组件之间共享数据而诞生的（可代替父子组件传值）
 + 共享数据放置在Vuex内，非共享数据放在组件内的data上即可
