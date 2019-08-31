@@ -1,11 +1,12 @@
-## APP 小demo！
+## APP 小demo！一起追寻改bug的快乐！！
 
-## 哈哈哈一起追寻改bug的快乐
+---
++ demo样式展示：
 
 ---
 
 #### day1 制作首页app组件
-
+`vue-router` `vue-resource` `Mint-UI` `MUI`
 1.完成header区域
 + 使用Mint-UI中的header组件
 
@@ -26,7 +27,7 @@
 + 利用本地图片及scss改造样式
 
 #### day2 
-
+`vue-router` `vue-resource` `MUI`
 1.九宫格-近期旅行
 + 1.1
 + 改造 近期旅行 路由链接
@@ -56,7 +57,7 @@
 + 评论成功后，在客户端手动拼接出一个最新的评论对象，追加到data中的comments开头
 
 #### day3
-
+`vue-router` `vue-resource` `MUI`
 1.图片分享子组件
 + 将图片分享按钮改造为路由链接，并显示对应的组件页面
 + 1.1
@@ -90,7 +91,7 @@
 + 商品+1小球飞购物车，涉及到“父子组件传值”以及“子父组件传值”
 
 #### day5
-
+`Vuex` 
 1.Vuex学习
 + Vuex 是为了保存组件之间共享数据而诞生的（可代替父子组件传值）
 + 共享数据放置在Vuex内，非共享数据放在组件内的data上即可
