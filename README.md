@@ -4,7 +4,7 @@
 
 ---
 
-#### day1 制作首页app组件
+#### part1 制作首页app组件
 `vue-router` `vue-resource` `Mint-UI` `MUI`
 
 1. 完成header区域
@@ -26,7 +26,7 @@
     * 首页九宫格
     * 利用本地图片及scss改造样式
 
-#### day2 
+#### part2 
 `vue-router` `vue-resource` `MUI`
 
 1. 九宫格-近期旅行
@@ -57,7 +57,7 @@
     * 发表评论功能，为文本框做数据双向绑定，为发表按钮添加事件
     * 评论成功后，在客户端手动拼接出一个最新的评论对象，追加到data中的comments开头
 
-#### day3
+#### part3
 `vue-router` `vue-resource` `MUI`
 
 1. 图片分享子组件
@@ -84,7 +84,7 @@
 
 3. 尝试在手机调试项目
 
-#### day4
+#### part4
 
 1. 商品详情子组件
     * 在跳转物品详细页面时，使用编程式导航（使用window.location.herf 的形式跳转）
@@ -92,7 +92,7 @@
     * 数据绑定，页面美化
     * 商品+1小球飞购物车，涉及到“父子组件传值”以及“子父组件传值”
 
-#### day5
+#### part5
 `Vuex` 
 
 1. Vuex学习
